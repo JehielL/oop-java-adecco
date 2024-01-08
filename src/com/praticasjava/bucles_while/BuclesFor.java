@@ -1,4 +1,4 @@
-package com.praticasjava;
+package com.praticasjava.bucles_while;
 
 public class BuclesFor {
 
