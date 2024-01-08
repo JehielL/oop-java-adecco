@@ -22,6 +22,10 @@ public class BucleDoWhile {
             System.out.println("Introduce Tu Password");
             userPassword = scanner.nextLine();
 
-        } while (!userPassword.equals(password));
+        } while (misMatchPassword(userPassword, password));
+    }
+
+    private static boolean misMatchPassword(String userPassword, String password) {
+        return !userPassword.equals(password);
     }
 }
