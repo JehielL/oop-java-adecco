@@ -3,7 +3,7 @@ package com.praticasjava.input;
 import java.util.Scanner;
 
 public class ReadConsole2 {
-    static Scanner scanner;
+    public static Scanner scanner;
 
     public static void main(String[] args) {
         scanner = new Scanner(System.in);
