@@ -12,11 +12,14 @@ public class Main {
                 "0000");
 
 
-        System.out.println(tarjeta1.nombreReceptor);
+        MetodoDePago paypal = new MetodoDePagoPaypal("Pedro",
+                "Adecco",
+                "Factura-002",
+                20.20,
+                "pedro@prueba.com",
+                "A153443");
 
-        tarjeta1.realizarPago();
-
-        tarjeta1.realizarPago();
+        paypal.realizarPago();
 
 
 
