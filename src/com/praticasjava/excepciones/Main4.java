@@ -14,6 +14,12 @@ public class Main4 {
         }catch (IllegalArgumentException e){
             System.out.println("Id incorrecto");
         }
+        try {
+            findProductbyId(10);
+
+        }catch (NoSuchElementException e){
+            System.out.println("Id no encontrado");
+        }
 
 
     }
