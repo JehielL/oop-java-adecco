@@ -2,12 +2,9 @@ package com.praticasjava.interfaces.ejemplos2;
 
 public class UserRegistration {
 
-
     //atributo
 
     private NotificationService sistemaNotificador;
-
-
 
     //constructores
 
@@ -24,7 +21,5 @@ public class UserRegistration {
     public void registrarUsuarioSms(String numTelf){
         sistemaNotificador.enviarMensaje("Confirme su sms, enviado al: " + numTelf);
     }
-
-
 
 }
