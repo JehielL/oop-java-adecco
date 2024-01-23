@@ -6,7 +6,6 @@ import java.util.Locale;
 
 public class MainDateTimeFormatter {
 
-
     public static void main(String[] args) {
         LocalDate hoy = LocalDate.now();
         System.out.println(hoy);
@@ -16,9 +15,6 @@ public class MainDateTimeFormatter {
 
         String fechaFormateada = hoy.format(formatter);
         System.out.println(fechaFormateada);
-
-
-
 
     }
 }
